@@ -1,8 +1,11 @@
 package com.thoughtworks.addressbook;
 
-public class AddressBook {
+import java.util.ArrayList;
+import java.util.List;
 
-    public boolean add(Person person) {
-        return true;
+public class AddressBook {
+    List people = new ArrayList();
+    public boolean add() {
+        return people.isEmpty();
     }
 }
